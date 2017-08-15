@@ -1,0 +1,19 @@
+{
+  "name": "searchwidget",
+  "version": "1.0.0",
+  "description": "Xebia Assignment for search component",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8000 -c-1 ../searchWidget"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haji2107/Xebia-Assignment.git"
+  },
+  "author": "Harjot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haji2107/Xebia-Assignment/issues"
+  },
+  "homepage": "https://github.com/haji2107/Xebia-Assignment#readme"
+}
