@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="serachWidget">
+	<head>
+		<title>Search Widget</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+        <link href="css/Ionicons/css/ionicons.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<script src="app.js"></script>
+		<script src="searchComponent/searchComponent.js"></script>
+		<script src="common/mainController.js"></script>
+		<script src="common/dataService.js"></script>
+		<div ng-controller="mainController as mc" class="col-xs-12 padding-0 searchBackground">
+			<search-widget on-key-press="mc.onSearch(searchKey)" dataset="mc.dataset" class="col-xs-12 padding-0"></search-widget>
+		</div>
+	</body>
+</html>

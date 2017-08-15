@@ -1,0 +1,19 @@
+<div class="searchHead">
+    <i class="col-xs-1 ion ion-android-search searchIcon"></i>
+    <input type="text" class="searchWidget col-xs-5" ng-model="scc.searchKey" ng-change="scc.onKeyPress({searchKey: scc.searchKey})">
+</div>
+<div class="col-xs-12 dataContainer padding-0">
+    <ul class="col-xs-12 padding-0">
+        <li ng-repeat="data in scc.dataset" class="dataBlock">
+        <span class="dataHead">{{data.Name}}</span>
+            <div class="dataInnerBlock">
+                <i class="ion ion-android-call dataIcons"></i> 
+                <span class="dataLine">{{data.contactNo}}</span> 
+                <i class="ion ion-ios-at dataIcons"></i>
+                <span class="dataLine">{{data.emailId}}</span> 
+                <i class="ion ion-document-text dataIcons"></i>
+                <span class="dataLine">{{data.policyDetails}}</span>
+            </div>
+        </li>
+    </ul>
+</div>

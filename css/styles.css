@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'FiraSans Regular';
+    src: url('fonts/fira-sans/FiraSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'FiraSans Medium';
+    src: url('fonts/fira-sans/FiraSans-Medium.otf');
+}
+
+@font-face {
+    font-family: 'FiraSans Light';
+    src: url('fonts/fira-sans/FiraSans-Light.otf');
+}
+
+@font-face {
+    font-family: 'FiraSans Bold';
+    src: url('fonts/fira-sans/FiraSans-Bold.otf');
+}
+
+@font-face {
+    font-family: 'FiraSans SemiBold';
+    src: url('fonts/fira-sans/FiraSans-SemiBold.otf');
+}
+.searchBackground{
+    background: #444056;
+    height: 85px;
+    padding: 15px
+}
+.searchWidget{
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px #696378 solid;
+    color: white;
+    font-size: 25px
+}
+.searchIcon{
+    color: #a49cac;
+    font-size: 30px;
+    text-align: right;
+    padding-top: 10px
+}
+.dataHead{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+}
+.dataLine{
+    display: flex;
+    width: 30%;
+    height: 60px;
+     font-size: 15px;
+    font-family: "FiraSans Regular";
+}
+.dataIcons{
+    display: flex;
+    width: 2%;
+    height: 60px;
+    font-size: 20px;
+}
+.dataBlock{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.searchHead{
+    margin: 15px;
+}
+.padding-0{
+    padding: 0px;
+}
+.dataInnerBlock{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+}
+.dataBlock:nth-child(even){
+    background: #d2d2d2
+}
+.dataContainer{
+    padding-top : 40px;
+    font-family: "FiraSans Medium";
+}
